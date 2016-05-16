@@ -1,10 +1,6 @@
 # UpWork Python Scripts
 ### A repository for some of solutions to problems that I worked with on UpWork.
 
-#### FindYourVacationHome
-Is a crawler for web site [findyourvacationhome](http://findyourvacationhome.com/).
-Site doesn't fork anymore.
-
 #### sec.gov
 www.sec.gov is a website that contains a lot of data.
 The aim of project to create a python script to scrape all of the information from pages like [this](https://www.sec.gov/Archives/edgar/data/1000180/000110465915071945/0001104659-15-071945-index.htm).
@@ -38,6 +34,10 @@ Provides data about IP addresses:
 - Reverse DNS Lookup
 - Coordinates (x, y)
 - If ip is private according to RFC 1918
+
+#### FindYourVacationHome
+Is a crawler for web site [findyourvacationhome](http://findyourvacationhome.com/).
+Site doesn't work anymore.
 
 #### plotly
 Builds plots using Plot.ly service and Python.

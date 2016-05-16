@@ -47,4 +47,12 @@ The goal of project was to collect tweets of a lot of people.
 
 #### plotly
 
-Builds plots using Plot.ly service
+Builds plots using Plot.ly service.
+
+#### plotly_js
+
+Builds plots using Plot.ly service in frontend, using JavaScript.
+
+#### stata_graph
+
+Building graphs using **pandas** and **matplotlib** packages.

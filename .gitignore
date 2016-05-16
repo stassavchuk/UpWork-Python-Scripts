@@ -90,14 +90,3 @@ ENV/
 
 # PyCharm
 .idea/
-
-# Something should be deleted
-
-idea/
-2 LinkedIn_Selenium/
-4 plot_ly_js/
-5 plotly/
-6 safely_reading/
-7 ip-whois/
-8 Stata_graph/
-9 twitter-crawl/

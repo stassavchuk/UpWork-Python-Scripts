@@ -91,7 +91,9 @@ ENV/
 # PyCharm
 idea/
 
-# Something shoul be deleted
+# Something should be deleted
+
+idea/
 2 LinkedIn_Selenium/
 4 plot_ly_js/
 5 plotly/

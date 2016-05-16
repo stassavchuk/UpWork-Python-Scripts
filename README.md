@@ -15,3 +15,36 @@ It gets this information from each page:
 - Name (Filer), IRS No., State of Incorp., Fiscal Year End, Type, Act, File No., Film No., SIC
 - Seq, Description, Document, URL, Type, Size
 
+#### LoadingInputAutomatically
+
+Achieves the following:
+1. Check every x minutes if there is a new file in a folder.
+2. If there is a new file that can be of data type txt, csv, xml, json or xls, load (only) this new file safely. The program should be able to deal with all of them.
+3. The file will always contain the following pieces of information for multiple individuals:
+    - A personal name (string)
+    - A university name (string)
+    - A subject name (string)
+    - A degree type (string)
+    - A grade (German style: float between 0.7 and 4.0)
+    - A year (integer)
+4. Once you have loaded this data write it into a txt file.
+5. Let python send this file in an email with some text to an email address of choice.
+
+#### ip-whois
+
+Provides data about IP addresses:
+- ISP Name
+- Country
+- BGP AS Number
+- Reverse DNS Lookup
+- Coordinates (x, y)
+- If ip is private according to RFC 1918
+
+#### twitter-crawl
+
+Takes 1000 first tweets of person and saves it into files.
+The goal of project was to collect tweets of a lot of people.
+
+#### plotly
+
+Builds plots using Plot.ly service
